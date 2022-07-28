@@ -4,6 +4,12 @@
   user-select: none
 }
 
+.links {
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+}
+
 h1 {
   font-size: 2rem;
   text-align: center;
@@ -56,3 +62,4 @@ main > img:hover {
   60% { transform: rotate( 0.0deg) }
   100% { transform: rotate( 0.0deg) }
 }
+

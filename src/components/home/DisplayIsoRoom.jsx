@@ -10,8 +10,8 @@ const DisplayIsoRoom = () => {
 			<Suspense fallback={null}>
 				<OrbitControls enablePan={false} />
 				<PerspectiveCamera makeDefault position={[0, 1, 5]} />
-				<ambientLight />
-				<pointLight color='#ffffff' intensity={0.3} position={[0, 0, 0]} />
+				{/* <ambientLight /> */}
+				<pointLight color='#98ffdd' intensity={1} position={[0, 0, 0]} />
 
 				<IsoRoomModel />
 			</Suspense>

@@ -41,7 +41,7 @@ export default function Navbar({ darkMode, handleClick }) {
 		<Box
 			component={'nav'}
 			width={'100%'}
-			height={'8.5vh'}
+			height={'80px'}
 			position={'fixed'}
 			zIndex={100}
 			backgroundColor={darkMode ? '#1f1f1f' : '#f8f8f8'}
