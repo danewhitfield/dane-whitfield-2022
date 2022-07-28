@@ -1,7 +1,6 @@
 import React from 'react';
 import IconLink from './IconLink';
 import { Box } from '@mui/material';
-import Style from './Portfolio.modules.scss';
 
 function PortfolioBlock({ image, live, source, title }) {
 	return (

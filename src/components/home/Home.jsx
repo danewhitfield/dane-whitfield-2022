@@ -1,12 +1,9 @@
 import Style from './Home.module.scss';
-import me from '../../img/me.png';
-import classNames from 'classnames';
 import EmojiBullet from './EmojiBullet';
 import SocialIcon from './SocialIcon';
 import { Box } from '@mui/material';
 import { info } from '../../info/Info';
 import Model from './Model';
-import DisplayIsoRoom from './DisplayIsoRoom';
 
 const Home = () => {
 	return (

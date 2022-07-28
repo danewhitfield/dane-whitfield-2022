@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from 'react';
+import React, { useState } from 'react';
 import Style from './Navbar.module.scss';
 import Toggler from './home/Toggler';
 import { Link, useLocation } from 'react-router-dom';
@@ -68,7 +68,10 @@ export default function Navbar({ darkMode, handleClick }) {
 								<p style={{ paddingBottom: '0.5rem' }}>{link.name}</p>
 							)}
 							{link.type && (
-								<img src='https://storage.googleapis.com/ares-profile-pictures/hd/danejoelwhitfield-6cecf8e75bc7a0f052f809595e5e925b_hd.jpg' />
+								<img
+									src='https://storage.googleapis.com/ares-profile-pictures/hd/danejoelwhitfield-6cecf8e75bc7a0f052f809595e5e925b_hd.jpg'
+									alt={'avatar'}
+								/>
 							)}
 						</Link>
 					</Box>

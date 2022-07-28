@@ -4,7 +4,6 @@ import {
 	OrbitControls,
 	PerspectiveCamera,
 	MeshDistortMaterial,
-	ContactShadows,
 	Environment,
 } from '@react-three/drei';
 import { Suspense } from 'react';

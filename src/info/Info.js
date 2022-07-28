@@ -8,7 +8,7 @@ import shrelify from '../img/shrelify.png';
 import codeify from '../img/code-ify.png';
 import typeNsee from '../img/type-n-see.png';
 import paradise from '../img/paradise.png';
-import customCoverLetter from '../img/cover-letter-customiser.png';
+// import customCoverLetter from '../img/cover-letter-customiser.png';
 // import fitCheck from 'https://fitcheck.netlify.app/';
 
 export let colors = ['rgb(47, 231, 190)', 'rgb(255, 130, 53)'];
