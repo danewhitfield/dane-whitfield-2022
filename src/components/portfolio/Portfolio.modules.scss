@@ -1,0 +1,10 @@
+@import "../../variables.modules.scss";
+
+.project-card {
+    transition: $transition;
+
+    &:hover {
+        transform: translateY(-6px);
+        transition: $transition;
+    }
+}

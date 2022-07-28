@@ -1,0 +1,25 @@
+@import "../variables.modules";
+
+nav {
+  transition: $transition;
+}
+
+.active {
+  border-bottom: 3px solid;
+  border-image-slice: 1;
+}
+
+li {
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-1px);
+    transition: $transition;
+  }
+}
+
+img {
+  width: 60px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
