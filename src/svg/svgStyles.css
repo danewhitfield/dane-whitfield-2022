@@ -1,0 +1,21 @@
+#stroke {
+    stroke: #000;
+    stroke-dashoffset: 1101;
+    stroke-dasharray: 1101;
+    animation: 10s ease-in forwards lines;
+}
+
+@keyframes lines {
+    0% {
+        stroke-dashoffset: 1101;
+        opacity: 0;
+    }
+    
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
