@@ -3,7 +3,7 @@ import EmojiBullet from './EmojiBullet';
 import SocialIcon from './SocialIcon';
 import { Box } from '@mui/material';
 import { info } from '../../info/Info';
-import Model from './Model';
+import TorusKnot from '../../models/TorusKnot';
 
 const Home = () => {
 	return (
@@ -29,7 +29,7 @@ const Home = () => {
 				mb={{ xs: '1rem', sm: 0 }}
 				mr={{ xs: 0, md: '2rem' }}
 			/> */}
-			<Model />
+			<TorusKnot />
 			<Box>
 				<h1>
 					Hi, I'm{' '}

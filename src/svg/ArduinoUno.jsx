@@ -8,8 +8,8 @@ const ArduinoUno = () => {
 			x='0px'
 			y='0px'
 			xmlns='http://www.w3.org/2000/svg'
-			width='1920px'
-			height='1080px'
+			width='1280px'
+			height='720px'
 			viewBox='0 0 1920 1080'
 			id='stroke'
 		>

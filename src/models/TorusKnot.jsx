@@ -7,11 +7,13 @@ import {
 	Environment,
 } from '@react-three/drei';
 import { Suspense } from 'react';
+// import { Azimuthal } from '../../utils/azimuthal';
 
 const Model = () => {
 	return (
 		<Canvas style={{ width: '500px', height: '500px' }}>
 			<OrbitControls enablePan={false} enableZoom={false} />
+			{/* <Azimuthal /> */}
 			<PerspectiveCamera makeDefault position={[0, 1, 5]} />
 			<ambientLight />
 			<pointLight color='#ffffff' intensity={1} position={[0, 0, 0]} />

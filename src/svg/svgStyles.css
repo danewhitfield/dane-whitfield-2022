@@ -3,6 +3,7 @@
     stroke-dashoffset: 1101;
     stroke-dasharray: 1101;
     animation: 10s ease-in forwards lines;
+    animation-delay: .6s;
 }
 
 @keyframes lines {
